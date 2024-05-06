@@ -1,0 +1,11 @@
+
+ALTER TABLE mkt."TB_VENDAS" ALTER COLUMN "DATA_COMPLETA" SET DATA TYPE character varying(20) COLLATE "pt-BR-x-icu"
+
+ALTER TABLE mkt."TB_VENDAS"
+    ALTER COLUMN "ID_PRODUTO" TYPE character varying(20);
+
+ALTER TABLE mkt."TB_VENDAS"
+    ALTER COLUMN "ID_LOJA" TYPE character varying(20);
+
+ALTER TABLE mkt."TB_VENDAS"
+    ALTER COLUMN "ID_VENDEDOR" TYPE character varying(20);

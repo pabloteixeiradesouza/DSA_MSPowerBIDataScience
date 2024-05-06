@@ -1,0 +1,3 @@
+select * from pg_collation
+
+ALTER TABLE mkt."TB_DATA" ALTER COLUMN "DATA_COMPLETA" SET DATA TYPE character varying(20) COLLATE "pt-BR-x-icu"
